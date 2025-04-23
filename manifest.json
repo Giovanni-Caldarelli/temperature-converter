@@ -3,7 +3,7 @@
     "name": "Temperature converter app",
     "short_name": "TempConverter",
     "description": "Converti temperature tra Celsius, Fahrenheit e Kelvin",
-    "start_url": "/",
+    "start_url": "/temperature-converter/",  
     "background_color": "#2f3d58",
     "theme_color": "#2f3d58",
     "orientation": "any",

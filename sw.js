@@ -4,14 +4,14 @@ self.addEventListener("install", event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
-      '/',
-      '/index.html',
-      '/converter.js',
-      '/converter.css',
-      '/manifest.json',
-      '/icon512.png',
-      '/index-offline.html'
-    ]);
+      '/temperature-converter/',
+      '/temperature-converter/index.html',
+      '/temperature-converter/converter.js',
+      '/temperature-converter/converter.css',
+      '/temperature-converter/manifest.json',
+      '/temperature-converter/icon512.png',
+      '/temperature-converter/index-offline.html'
+    ]);    
   })());
 });
 
